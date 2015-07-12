@@ -1,0 +1,19 @@
+{
+  "name": "Messages-manager",
+  "version": "0.0.1",
+  "description":"Manage your text messages for your apex applications",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nvanbaren/Messages-manager.git"
+  },
+  "Keywords": [
+    "APEX",
+    "Oracle application express",
+    "Translations"
+  ],
+  "author": "NvanBaren",
+  "licence": {
+    "type": "MIT",
+    "url": "https://github.com/nvanbaren/Messages-manager/blob/master/LICENSE"
+  },
+}
