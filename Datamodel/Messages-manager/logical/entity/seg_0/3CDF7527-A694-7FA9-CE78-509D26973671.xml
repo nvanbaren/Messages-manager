@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3CDF7527-A694-7FA9-CE78-509D26973671" name="LANGUAGES">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<generatorID>5CE487F2-6921-D9A4-252E-518ADC810B4A</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NAME" id="958E08BC-507B-4A0C-342D-1D7D10FD66E4">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<generatorID>2F812568-D0F1-3498-33C6-38C7FDFC4D5A</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CODE" id="1DE56723-EAF8-5C2B-3495-9D9861EC417F">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<generatorID>7BFA4561-BE78-B663-9DA2-621638255A03</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AC843D3F-8365-ED73-3728-DB0372F8CFA2" name="LANGUAGE CODE PK">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<generatorID>A24C2B5F-B76F-A1AC-0D7B-7426B10377F5</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1DE56723-EAF8-5C2B-3495-9D9861EC417F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

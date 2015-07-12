@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="Messages-manager_domains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Timestamp" id="DOM10003">
+         <createdBy>nicolette</createdBy>
+         <createdTime>2015-07-12 19:12:11 UTC</createdTime>
+         <ownerDesignName>Messages-manager</ownerDesignName>
+         <importedID>DOM10003</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Messages-manager_domains</fileName>
+         <logicalDatatype>LOGDT015</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Double" id="DOM10004">
+         <createdBy>nicolette</createdBy>
+         <createdTime>2015-07-12 19:12:11 UTC</createdTime>
+         <ownerDesignName>Messages-manager</ownerDesignName>
+         <importedID>DOM10004</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Messages-manager_domains</fileName>
+         <logicalDatatype>LOGDT020</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Numeric" id="DOM10006">
+         <createdBy>nicolette</createdBy>
+         <createdTime>2015-07-12 19:12:11 UTC</createdTime>
+         <ownerDesignName>Messages-manager</ownerDesignName>
+         <importedID>DOM10006</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Messages-manager_domains</fileName>
+         <logicalDatatype>LOGDT019</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Decimal" id="DOM10007">
+         <createdBy>nicolette</createdBy>
+         <createdTime>2015-07-12 19:12:11 UTC</createdTime>
+         <ownerDesignName>Messages-manager</ownerDesignName>
+         <importedID>DOM10007</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Messages-manager_domains</fileName>
+         <logicalDatatype>LOGDT026</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Clob" id="DOM10009">
+         <createdBy>nicolette</createdBy>
+         <createdTime>2015-07-12 19:12:11 UTC</createdTime>
+         <ownerDesignName>Messages-manager</ownerDesignName>
+         <importedID>DOM10009</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Messages-manager_domains</fileName>
+         <logicalDatatype>LOGDT028</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="LongText" id="DOM2001277">
+         <createdBy>nicolette</createdBy>
+         <createdTime>2015-07-12 19:12:11 UTC</createdTime>
+         <ownerDesignName>Messages-manager</ownerDesignName>
+         <importedID>DOM2001277</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>4096</dataTypeSize>
+         <fileName>Messages-manager_domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Blob" id="DOM2006400">
+         <createdBy>nicolette</createdBy>
+         <createdTime>2015-07-12 19:12:11 UTC</createdTime>
+         <ownerDesignName>Messages-manager</ownerDesignName>
+         <importedID>DOM2006400</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>Messages-manager_domains</fileName>
+         <logicalDatatype>LOGDT029</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Code_Y_N" id="DOM2022950">
+         <createdBy>nicolette</createdBy>
+         <createdTime>2015-07-12 19:12:11 UTC</createdTime>
+         <ownerDesignName>Messages-manager</ownerDesignName>
+         <importedID>DOM2022950</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>1</dataTypeSize>
+         <fileName>Messages-manager_domains</fileName>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <listOfValues>
+            <valueDef value="N" description="No"/>
+            <valueDef value="Y" description="Yes"/>
+         </listOfValues>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Datetime" id="DOM2025100">
+         <createdBy>nicolette</createdBy>
+         <createdTime>2015-07-12 19:12:11 UTC</createdTime>
+         <ownerDesignName>Messages-manager</ownerDesignName>
+         <importedID>DOM2025100</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Messages-manager_domains</fileName>
+         <logicalDatatype>LOGDT008</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Short Text" id="DOM2025675">
+         <createdBy>nicolette</createdBy>
+         <createdTime>2015-07-12 19:12:11 UTC</createdTime>
+         <ownerDesignName>Messages-manager</ownerDesignName>
+         <importedID>DOM2025675</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>25</dataTypeSize>
+         <fileName>Messages-manager_domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Date" id="DOM3000001">
+         <createdBy>nicolette</createdBy>
+         <createdTime>2015-07-12 19:12:11 UTC</createdTime>
+         <ownerDesignName>Messages-manager</ownerDesignName>
+         <importedID>DOM3000001</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>Messages-manager_domains</fileName>
+         <logicalDatatype>LOGDT007</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Text" id="DOM3000005">
+         <createdBy>nicolette</createdBy>
+         <createdTime>2015-07-12 19:12:11 UTC</createdTime>
+         <comment>Use for free comment style text</comment>
+         <ownerDesignName>Messages-manager</ownerDesignName>
+         <importedID>DOM3000005</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>256</dataTypeSize>
+         <fileName>Messages-manager_domains</fileName>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Euro currency" id="DOM3000007">
+         <createdBy>nicolette</createdBy>
+         <createdTime>2015-07-12 19:12:11 UTC</createdTime>
+         <ownerDesignName>Messages-manager</ownerDesignName>
+         <importedID>DOM3000007</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>9</dataTypePrecision>
+         <dataTypeScale>2</dataTypeScale>
+         <fileName>Messages-manager_domains</fileName>
+         <logicalDatatype>LOGDT022</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>

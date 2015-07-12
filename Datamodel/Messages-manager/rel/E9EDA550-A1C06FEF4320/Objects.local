@@ -3,6 +3,5 @@
    <object objectType="SchemaObject" objectID="C3F70798-E28B-9CF6-3813-CCF9851268CF" name="MESSAGE_OWNER" seqName="seg_0"/>
    <object objectType="Table" objectID="5CE487F2-6921-D9A4-252E-518ADC810B4A" name="LANGUAGES" seqName="seg_0"/>
    <object objectType="Table" objectID="18042A87-16E6-1728-BB4B-6BD5E28EDF4D" name="MESSAGES" seqName="seg_0"/>
-   <object objectType="Table" objectID="183D1B57-2D1B-883F-4102-2FD38582308A" name="VERTAAL" seqName="seg_0"/>
    <object objectType="FKIndexAssociation" objectID="957B00A1-1A2C-DB7D-8131-F7653A82D0EF" name="MES_LAN_FK" seqName="seg_0" containerID="18042A87-16E6-1728-BB4B-6BD5E28EDF4D" refContainerID="5CE487F2-6921-D9A4-252E-518ADC810B4A"/>
 </oracle.dbtools.crest.model.design.relational.RelationalDesign>

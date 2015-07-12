@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" id="A7603345-DE8F-48C6-B0CC-F45AB36D44D0">
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="A7603345-DE8F-48C6-B0CC-F45AB36D44D0">
 <createdBy>nicolette</createdBy>
 <createdTime>2015-07-12 17:08:12 UTC</createdTime>
 <autoRoute>false</autoRoute>
@@ -12,4 +12,24 @@
 <diagramColor>-1</diagramColor>
 <display>false</display>
 <notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="3CDF7527-A694-7FA9-CE78-509D26973671" otype="Entity" vid="94097ADC-897E-5010-8649-18A4528C83A5">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="292" width="221" height="94"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B1A59470-69C2-C0E4-57CA-22FDE778BCB1" otype="Entity" vid="9A236970-8633-A4FB-B880-5A8916823B35">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="20" width="270" height="212"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8E61387E-5F94-A098-F004-B51A45CAF45D" otype="Relation" vid_source="94097ADC-897E-5010-8649-18A4528C83A5" vid_target="9A236970-8633-A4FB-B880-5A8916823B35">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<lineWidth>1</lineWidth>
+<points>
+<point x="130" y="292"/>
+<point x="130" y="232"/>
+</points>
+</Connector>
+</connectors>
 </Diagram>

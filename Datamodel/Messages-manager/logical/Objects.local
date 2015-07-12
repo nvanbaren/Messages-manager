@@ -1,2 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.logical.LogicalDesign/>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="3CDF7527-A694-7FA9-CE78-509D26973671" name="LANGUAGES" seqName="seg_0"/>
+   <object objectType="Entity" objectID="B1A59470-69C2-C0E4-57CA-22FDE778BCB1" name="MESSAGES" seqName="seg_0"/>
+   <object objectType="Relation" objectID="8E61387E-5F94-A098-F004-B51A45CAF45D" name="MES_LAN_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

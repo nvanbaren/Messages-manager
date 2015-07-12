@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="APEX_040200" directorySegmentName="seg_0" id="DFD3F86D-5129-F550-70E4-D77F2C28418A">
-<sourceConnName>Message translations</sourceConnName>
-<sourceObjName>APEX_040200</sourceObjName>
-<createdBy>nicolette</createdBy>
-<createdTime>2015-07-12 17:07:15 UTC</createdTime>
-<ownerDesignName>Messages-manager</ownerDesignName>
-</UserOraclev10g>
