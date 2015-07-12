@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="EF0EF2A8-6903-7E77-52B6-69DCF31EA329" name="Message translations" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

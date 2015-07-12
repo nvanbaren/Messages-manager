@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SynonymOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SynonymOraclev10g" name="WWV_FLOW_MESSAGES$" directorySegmentName="seg_0" id="893623D3-10CB-0292-1CC6-500DE5889B5C">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGE_OWNER</sourceObjSchema>
+<sourceObjName>WWV_FLOW_MESSAGES$</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:15 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<object>WWV_FLOW_MESSAGES$</object>
+<objectUser>DFD3F86D-5129-F550-70E4-D77F2C28418A</objectUser>
+<user>C9836D5C-BFA7-DD60-9FE3-BFA211ED4B79</user>
+</SynonymOraclev10g>

@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<RoleOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.RoleOraclev10g" name="CONNECT" directorySegmentName="seg_0" id="AED799B4-0EE3-9AE8-ED62-35292F089F32">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjName>CONNECT</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:12 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<nullInstance>true</nullInstance>
+<storableNullInstance>true</storableNullInstance>
+<privileges>CREATE SESSION</privileges>
+</RoleOraclev10g>

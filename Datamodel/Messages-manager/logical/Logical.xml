@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7940D695-460A-12CD-986A-CF81A311CB54" mainViewID="A7603345-DE8F-48C6-B0CC-F45AB36D44D0">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 14:06:52 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

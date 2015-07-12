@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="VERTAAL" directorySegmentName="seg_0" id="183D1B57-2D1B-883F-4102-2FD38582308A">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:13 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<schemaObject>C3F70798-E28B-9CF6-3813-CCF9851268CF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>63A5D841-BB26-A03F-5150-EE8195D77CCC</segment>
+<tableSpace>1F3BA8A9-A9AF-7689-452E-7B5FE7CEF5D4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NEDERLANDS_TEXT" id="4B097ED4-5164-D983-077E-CC3CF2CE85B7">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENGELSE_TEXT" id="B353F70D-56A7-5BD8-2D7B-FBC5E921C9C0">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MESSAGE_NAME" id="E8884591-FD18-4B88-0AEA-838BCC672DB3">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="VERTAAL_PK" id="3DE36E1F-F429-9C77-4CFE-B42D20CAAC9F">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<schemaObject>C3F70798-E28B-9CF6-3813-CCF9851268CF</schemaObject>
+<segment>BA26D8FA-850B-7596-90ED-49407D6E80AE</segment>
+<tableSpace>1F3BA8A9-A9AF-7689-452E-7B5FE7CEF5D4</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="VERTAAL_PK" id="D7199355-0744-CD94-06DA-7713EB8E5BED">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:15 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<segment>BA26D8FA-850B-7596-90ED-49407D6E80AE</segment>
+<tableSpace>1F3BA8A9-A9AF-7689-452E-7B5FE7CEF5D4</tableSpace>
+<existingIndex>3DE36E1F-F429-9C77-4CFE-B42D20CAAC9F</existingIndex>
+<indexSegment>BA26D8FA-850B-7596-90ED-49407D6E80AE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

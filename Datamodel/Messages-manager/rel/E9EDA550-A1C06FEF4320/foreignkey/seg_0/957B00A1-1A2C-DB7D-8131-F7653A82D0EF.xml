@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="957B00A1-1A2C-DB7D-8131-F7653A82D0EF" containerWithKeyObject="18042A87-16E6-1728-BB4B-6BD5E28EDF4D" localFKIndex="21E6688F-E427-5F72-C734-0538B2B394B5" name="MES_LAN_FK">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGE_OWNER</sourceObjSchema>
+<sourceObjName>MES_LAN_FK</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:16 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5CE487F2-6921-D9A4-252E-518ADC810B4A</referredTableID>
+<keyObject>A24C2B5F-B76F-A1AC-0D7B-7426B10377F5</keyObject>
+<referredKeyID>A24C2B5F-B76F-A1AC-0D7B-7426B10377F5</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

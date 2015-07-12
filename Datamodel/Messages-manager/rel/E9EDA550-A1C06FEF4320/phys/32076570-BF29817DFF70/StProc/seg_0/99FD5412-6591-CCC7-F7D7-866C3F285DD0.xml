@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StoredProcedureOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.StoredProcedureOraclev10g" name="TRANSLATE" directorySegmentName="seg_0" id="99FD5412-6591-CCC7-F7D7-866C3F285DD0">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGE_OWNER</sourceObjSchema>
+<sourceObjName>TRANSLATE</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:15 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<owner>C9836D5C-BFA7-DD60-9FE3-BFA211ED4B79</owner>
+<source>CREATE OR REPLACE procedure MESSAGE_OWNER.TRANSLATE (p_application_id in number&lt;br/&gt;                                      ,p_language       in varchar2&lt;br/&gt;                                      )&lt;br/&gt;as &lt;br/&gt;  cursor c_met(b_language in varchar2)&lt;br/&gt;  is&lt;br/&gt;    select met.name&lt;br/&gt;    ,      met.translation&lt;br/&gt;    from   message_translations met&lt;br/&gt;    where  met.language = b_language&lt;br/&gt;    and not exists (select &apos;&apos;&lt;br/&gt;                    from   wwv_flow_messages$ mes&lt;br/&gt;                    where  mes.flow_id = b_application_id&lt;br/&gt;                    and    mes.name = met.name&lt;br/&gt;                   )&lt;br/&gt;    ;&lt;br/&gt;begin&lt;br/&gt;  null;&lt;br/&gt;end translate;</source>
+<body>CREATE OR REPLACE procedure MESSAGE_OWNER.TRANSLATE (p_application_id in number&lt;br/&gt;                                      ,p_language       in varchar2&lt;br/&gt;                                      )&lt;br/&gt;as &lt;br/&gt;  cursor c_met(b_language in varchar2)&lt;br/&gt;  is&lt;br/&gt;    select met.name&lt;br/&gt;    ,      met.translation&lt;br/&gt;    from   message_translations met&lt;br/&gt;    where  met.language = b_language&lt;br/&gt;    and not exists (select &apos;&apos;&lt;br/&gt;                    from   wwv_flow_messages$ mes&lt;br/&gt;                    where  mes.flow_id = b_application_id&lt;br/&gt;                    and    mes.name = met.name&lt;br/&gt;                   )&lt;br/&gt;    ;&lt;br/&gt;begin&lt;br/&gt;  null;&lt;br/&gt;end translate;</body>
+</StoredProcedureOraclev10g>

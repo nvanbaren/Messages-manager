@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Messages-manager" id="C689C297-C17B-B293-53AD-3C19CBC490EF" version="3.5">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 14:06:52 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C689C297-C17B-B293-53AD-3C19CBC490EF</designId>
+</OSDM_Design>

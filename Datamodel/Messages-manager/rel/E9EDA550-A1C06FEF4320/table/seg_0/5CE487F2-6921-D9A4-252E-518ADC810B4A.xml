@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5CE487F2-6921-D9A4-252E-518ADC810B4A" schemaObject="C3F70798-E28B-9CF6-3813-CCF9851268CF" name="LANGUAGES">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGE_OWNER</sourceObjSchema>
+<sourceObjName>LANGUAGES</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:13 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NAME" id="2F812568-D0F1-3498-33C6-38C7FDFC4D5A">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>LANGUAGES</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODE" id="7BFA4561-BE78-B663-9DA2-621638255A03">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>LANGUAGES</sourceObjSchema>
+<sourceObjName>CODE</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A24C2B5F-B76F-A1AC-0D7B-7426B10377F5" name="LANGUAGE_CODE_PK">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGE_OWNER</sourceObjSchema>
+<sourceObjName>LANGUAGE_CODE_PK</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BFA4561-BE78-B663-9DA2-621638255A03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC68452C-5B14-64E1-4B9A-D279D7681009" schemaObject="C3F70798-E28B-9CF6-3813-CCF9851268CF" name="LANGUAGE_COUNTRY_CODE">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGE_OWNER</sourceObjSchema>
+<sourceObjName>LANGUAGE_COUNTRY_CODE</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BFA4561-BE78-B663-9DA2-621638255A03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
