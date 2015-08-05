@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="MESSAGE_OWNER" directorySegmentName="seg_0" id="C3F70798-E28B-9CF6-3813-CCF9851268CF">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:13 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+</SchemaObject>

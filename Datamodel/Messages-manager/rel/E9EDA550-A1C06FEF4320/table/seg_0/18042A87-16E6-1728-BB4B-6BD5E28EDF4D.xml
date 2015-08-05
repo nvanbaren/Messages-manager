@@ -1,0 +1,208 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18042A87-16E6-1728-BB4B-6BD5E28EDF4D" schemaObject="C3F70798-E28B-9CF6-3813-CCF9851268CF" name="MESSAGES">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGE_OWNER</sourceObjSchema>
+<sourceObjName>MESSAGES</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:13 UTC</createdTime>
+<commentInRDBMS>Translatable messages as used in apex applications.</commentInRDBMS>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="799FE1A0-D364-FD38-794C-5A80B5390414">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGES</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<commentInRDBMS>Unique identification number</commentInRDBMS>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="F6731E95-5084-5DE1-6FD1-30A8CC6EA934">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGES</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<commentInRDBMS>Name of the message</commentInRDBMS>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEXT" id="E9E6B21C-2248-CA1A-2EEC-5FE66A843F5C">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGES</sourceObjSchema>
+<sourceObjName>TEXT</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<commentInRDBMS>The translated message text</commentInRDBMS>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LANGUAGE_CODE" id="DB34B42D-8AAD-FCBB-4C7D-FDAEF05F6728">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGES</sourceObjSchema>
+<sourceObjName>LANGUAGE_CODE</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<commentInRDBMS>The language of the message text.</commentInRDBMS>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="957B00A1-1A2C-DB7D-8131-F7653A82D0EF" referredColumn="7BFA4561-BE78-B663-9DA2-621638255A03"/>
+</associations>
+</Column>
+<Column name="CUSTOM" id="933C5A9A-CE16-5A6C-AF7B-49D417C73672">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGES</sourceObjSchema>
+<sourceObjName>CUSTOM</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<commentInRDBMS>The message is custom when defined by a developer and by the apex builder.</commentInRDBMS>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<constraintName>MES_CUSTOM</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHORTCUT" id="8FC12EC5-C140-80C8-AB5E-A12EA73C5B85">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGES</sourceObjSchema>
+<sourceObjName>SHORTCUT</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<commentInRDBMS>The message is used in a shortcut.</commentInRDBMS>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<constraintName>MES_SHORTCUT</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JAVASCRIPT" id="C8EBB676-BD28-9649-B526-6E50BBF6D851">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGES</sourceObjSchema>
+<sourceObjName>JAVASCRIPT</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<commentInRDBMS>The message is used as value of a javascript variable.</commentInRDBMS>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<constraintName>MES_JAVASCRIPT</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12DFEA99-C216-56DD-8D43-D395B261B6B6" name="MESSAGE_ID_PK">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGE_OWNER</sourceObjSchema>
+<sourceObjName>MESSAGE_ID_PK</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="799FE1A0-D364-FD38-794C-5A80B5390414"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1FEDF44-35F6-0DA3-1368-576278B9E23E" name="MES_UK">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGE_OWNER</sourceObjSchema>
+<sourceObjName>MES_UK</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6731E95-5084-5DE1-6FD1-30A8CC6EA934"/>
+<colUsage columnID="DB34B42D-8AAD-FCBB-4C7D-FDAEF05F6728"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4A7197ED-09CE-67BC-CB56-8221A1746941" schemaObject="C3F70798-E28B-9CF6-3813-CCF9851268CF" name="MET_PK">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGE_OWNER</sourceObjSchema>
+<sourceObjName>MET_PK</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="799FE1A0-D364-FD38-794C-5A80B5390414"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="266F96E1-D19C-E450-7938-BE4B6F96D5A9" schemaObject="C3F70798-E28B-9CF6-3813-CCF9851268CF" name="MES_UK">
+<sourceConnName>Message translations</sourceConnName>
+<sourceObjSchema>MESSAGE_OWNER</sourceObjSchema>
+<sourceObjName>MES_UK</sourceObjName>
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6731E95-5084-5DE1-6FD1-30A8CC6EA934"/>
+<colUsage columnID="DB34B42D-8AAD-FCBB-4C7D-FDAEF05F6728"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21E6688F-E427-5F72-C734-0538B2B394B5" name="MES_LAN_FK">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:16 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB34B42D-8AAD-FCBB-4C7D-FDAEF05F6728"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

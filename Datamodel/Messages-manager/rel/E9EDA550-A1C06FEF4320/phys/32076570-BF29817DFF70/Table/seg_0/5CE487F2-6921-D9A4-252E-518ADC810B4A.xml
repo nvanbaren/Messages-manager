@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="LANGUAGES" directorySegmentName="seg_0" id="5CE487F2-6921-D9A4-252E-518ADC810B4A">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:13 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<schemaObject>C3F70798-E28B-9CF6-3813-CCF9851268CF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>63A5D841-BB26-A03F-5150-EE8195D77CCC</segment>
+<tableSpace>1F3BA8A9-A9AF-7689-452E-7B5FE7CEF5D4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="2F812568-D0F1-3498-33C6-38C7FDFC4D5A">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODE" id="7BFA4561-BE78-B663-9DA2-621638255A03">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="LANGUAGE_COUNTRY_CODE" id="CC68452C-5B14-64E1-4B9A-D279D7681009">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<schemaObject>C3F70798-E28B-9CF6-3813-CCF9851268CF</schemaObject>
+<segment>BA26D8FA-850B-7596-90ED-49407D6E80AE</segment>
+<tableSpace>1F3BA8A9-A9AF-7689-452E-7B5FE7CEF5D4</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="LANGUAGE_CODE_PK" id="A24C2B5F-B76F-A1AC-0D7B-7426B10377F5">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<segment>BA26D8FA-850B-7596-90ED-49407D6E80AE</segment>
+<tableSpace>1F3BA8A9-A9AF-7689-452E-7B5FE7CEF5D4</tableSpace>
+<existingIndex>CC68452C-5B14-64E1-4B9A-D279D7681009</existingIndex>
+<indexSegment>BA26D8FA-850B-7596-90ED-49407D6E80AE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

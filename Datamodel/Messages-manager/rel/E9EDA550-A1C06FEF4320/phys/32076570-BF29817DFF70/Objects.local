@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>
+   <object objectType="TSpace" objectID="1F3BA8A9-A9AF-7689-452E-7B5FE7CEF5D4" name="USERS" seqName="seg_0"/>
+   <object objectType="User" objectID="C9836D5C-BFA7-DD60-9FE3-BFA211ED4B79" name="MESSAGE_OWNER" seqName="seg_0"/>
+   <object objectType="User" objectID="MDSYS" name="MDSYS" seqName="seg_0"/>
+   <object objectType="User" objectID="PUBLIC" name="PUBLIC" seqName="seg_0"/>
+   <object objectType="SType" objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" name="SDO_GEOMETRY" seqName="seg_0"/>
+   <object objectType="SType" objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" name="XMLTYPE" seqName="seg_0"/>
+   <object objectType="Package" objectID="C17CEC5F-6988-F68C-C9E5-3320A131AA6D" name="DO_TRANSLATIONS" seqName="seg_0"/>
+   <object objectType="Table" objectID="18042A87-16E6-1728-BB4B-6BD5E28EDF4D" name="MESSAGES" seqName="seg_0"/>
+   <object objectType="Table" objectID="5CE487F2-6921-D9A4-252E-518ADC810B4A" name="LANGUAGES" seqName="seg_0"/>
+   <object objectType="Segment" objectID="63A5D841-BB26-A03F-5150-EE8195D77CCC" name="Storage1" seqName="seg_0"/>
+   <object objectType="Segment" objectID="BA26D8FA-850B-7596-90ED-49407D6E80AE" name="Storage4" seqName="seg_0"/>
+   <object objectType="Sequence" objectID="31416A42-08FF-2914-FAAE-F2C8675D89AA" name="MET_SEQ1" seqName="seg_0"/>
+   <object objectType="Synonym" objectID="893623D3-10CB-0292-1CC6-500DE5889B5C" name="WWV_FLOW_MESSAGES$" seqName="seg_0"/>
+   <object objectType="Synonym" objectID="BC27399A-08E7-23E8-48B1-949212291CA5" name="WWV_FLOW_SHORTCUTS" seqName="seg_0"/>
+   <object objectType="Trigger" objectID="446A93F2-5994-200D-FE6C-40EC314987E8" name="BIR_MET_PK" seqName="seg_0"/>
+   <object objectType="Role" objectID="7ACBB85A-18E9-B37A-3B1B-4385925FFE7B" name="RESOURCE" seqName="seg_0"/>
+   <object objectType="Role" objectID="AED799B4-0EE3-9AE8-ED62-35292F089F32" name="CONNECT" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.storage.oracle.v11g.StorageDesignOraclev11g>

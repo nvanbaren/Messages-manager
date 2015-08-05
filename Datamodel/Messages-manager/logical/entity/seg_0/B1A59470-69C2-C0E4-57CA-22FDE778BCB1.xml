@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1A59470-69C2-C0E4-57CA-22FDE778BCB1" name="MESSAGES">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<commentInRDBMS>Translatable messages as used in apex applications.</commentInRDBMS>
+<generatorID>18042A87-16E6-1728-BB4B-6BD5E28EDF4D</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="41736CA0-D54E-950E-64D8-28A4C33537B6">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<commentInRDBMS>Unique identification number</commentInRDBMS>
+<generatorID>799FE1A0-D364-FD38-794C-5A80B5390414</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAME" id="7FEC7DCC-7254-6EC7-AD88-D28A75C4D650">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<commentInRDBMS>Name of the message</commentInRDBMS>
+<generatorID>F6731E95-5084-5DE1-6FD1-30A8CC6EA934</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TEXT" id="05E53924-4735-CEFE-52B1-AD337652C495">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<commentInRDBMS>The translated message text</commentInRDBMS>
+<generatorID>E9E6B21C-2248-CA1A-2EEC-5FE66A843F5C</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000 BYTE</dataTypeSize>
+<ownDataTypeParameters>4000 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LANGUAGE CODE" id="897C4C88-F2CC-E674-FD8C-ED486AF5D2C5">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<commentInRDBMS>The language of the message text.</commentInRDBMS>
+<generatorID>8E61387E-5F94-A098-F004-B51A45CAF45D</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<referedAttribute>1DE56723-EAF8-5C2B-3495-9D9861EC417F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUSTOM" id="AE24536F-5739-E821-FD67-4690C40B4F6E">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<commentInRDBMS>The message is custom when defined by a developer and by the apex builder.</commentInRDBMS>
+<generatorID>933C5A9A-CE16-5A6C-AF7B-49D417C73672</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<constraintName>MES_CUSTOM</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SHORTCUT" id="2C3A6065-4D78-B92B-5D61-D146C9AACDBA">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<commentInRDBMS>The message is used in a shortcut.</commentInRDBMS>
+<generatorID>8FC12EC5-C140-80C8-AB5E-A12EA73C5B85</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<constraintName>MES_SHORTCUT</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JAVASCRIPT" id="494BEA5F-FC21-9F98-D73E-1584BC07C916">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<commentInRDBMS>The message is used as value of a javascript variable.</commentInRDBMS>
+<generatorID>C8EBB676-BD28-9649-B526-6E50BBF6D851</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<constraintName>MES_JAVASCRIPT</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;N&apos;" description=""/>
+<valueDef value="&apos;Y&apos;" description=""/>
+</listOfValues>
+<defaultValue>&apos;N&apos;</defaultValue>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="677BD8FA-AC9D-AD93-E5FF-F523E877B064" name="MESSAGE ID PK">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<generatorID>12DFEA99-C216-56DD-8D43-D395B261B6B6</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41736CA0-D54E-950E-64D8-28A4C33537B6</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="DCED8E9E-AFA1-67AF-5623-DC5944FD3B15" name="MES UK">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<generatorID>F1FEDF44-35F6-0DA3-1368-576278B9E23E</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>7FEC7DCC-7254-6EC7-AD88-D28A75C4D650</attributeRef>
+<attributeRef>897C4C88-F2CC-E674-FD8C-ED486AF5D2C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

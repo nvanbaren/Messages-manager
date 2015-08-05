@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MES_LAN_FK" directorySegmentName="seg_0" id="8E61387E-5F94-A098-F004-B51A45CAF45D">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 18:31:11 UTC</createdTime>
+<generatorID>957B00A1-1A2C-DB7D-8131-F7653A82D0EF</generatorID>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<engineerTo>
+<item key="E9EDA550-56CD-0DE3-3C42-A1C06FEF4320" value="true"/>
+</engineerTo>
+<sourcePk>AC843D3F-8365-ED73-3728-DB0372F8CFA2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3CDF7527-A694-7FA9-CE78-509D26973671</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B1A59470-69C2-C0E4-57CA-22FDE778BCB1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

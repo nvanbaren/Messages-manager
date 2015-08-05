@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MESSAGES" directorySegmentName="seg_0" id="18042A87-16E6-1728-BB4B-6BD5E28EDF4D">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:13 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<schemaObject>C3F70798-E28B-9CF6-3813-CCF9851268CF</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>63A5D841-BB26-A03F-5150-EE8195D77CCC</segment>
+<tableSpace>1F3BA8A9-A9AF-7689-452E-7B5FE7CEF5D4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="799FE1A0-D364-FD38-794C-5A80B5390414">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHORTCUT" id="8FC12EC5-C140-80C8-AB5E-A12EA73C5B85">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<defaultValue>&apos;N&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="CUSTOM" id="933C5A9A-CE16-5A6C-AF7B-49D417C73672">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<defaultValue>&apos;N&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="JAVASCRIPT" id="C8EBB676-BD28-9649-B526-6E50BBF6D851">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<defaultValue>&apos;N&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="LANGUAGE_CODE" id="DB34B42D-8AAD-FCBB-4C7D-FDAEF05F6728">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEXT" id="E9E6B21C-2248-CA1A-2EEC-5FE66A843F5C">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="F6731E95-5084-5DE1-6FD1-30A8CC6EA934">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MES_UK" id="266F96E1-D19C-E450-7938-BE4B6F96D5A9">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<schemaObject>C3F70798-E28B-9CF6-3813-CCF9851268CF</schemaObject>
+<segment>BA26D8FA-850B-7596-90ED-49407D6E80AE</segment>
+<tableSpace>1F3BA8A9-A9AF-7689-452E-7B5FE7CEF5D4</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MET_PK" id="4A7197ED-09CE-67BC-CB56-8221A1746941">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<schemaObject>C3F70798-E28B-9CF6-3813-CCF9851268CF</schemaObject>
+<segment>BA26D8FA-850B-7596-90ED-49407D6E80AE</segment>
+<tableSpace>1F3BA8A9-A9AF-7689-452E-7B5FE7CEF5D4</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MES_LAN_FK" id="21E6688F-E427-5F72-C734-0538B2B394B5">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:16 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MESSAGE_ID_PK" id="12DFEA99-C216-56DD-8D43-D395B261B6B6">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<segment>BA26D8FA-850B-7596-90ED-49407D6E80AE</segment>
+<tableSpace>1F3BA8A9-A9AF-7689-452E-7B5FE7CEF5D4</tableSpace>
+<existingIndex>4A7197ED-09CE-67BC-CB56-8221A1746941</existingIndex>
+<indexSegment>BA26D8FA-850B-7596-90ED-49407D6E80AE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="MES_UK" id="F1FEDF44-35F6-0DA3-1368-576278B9E23E">
+<createdBy>nicolette</createdBy>
+<createdTime>2015-07-12 17:07:14 UTC</createdTime>
+<ownerDesignName>Messages-manager</ownerDesignName>
+<segment>BA26D8FA-850B-7596-90ED-49407D6E80AE</segment>
+<tableSpace>1F3BA8A9-A9AF-7689-452E-7B5FE7CEF5D4</tableSpace>
+<existingIndex>266F96E1-D19C-E450-7938-BE4B6F96D5A9</existingIndex>
+<indexSegment>BA26D8FA-850B-7596-90ED-49407D6E80AE</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>
